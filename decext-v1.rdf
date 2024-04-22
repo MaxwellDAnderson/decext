@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://maxwelldanderson.github.io/decext/"
+     xml:base="https://maxwelldanderson.github.io/decext/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="https://maxwelldanderson.github.io/decext/">
+        <rdfs:label xml:lang="en">DECision EXTension proposal for Schema.org</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#changeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#changeNote">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#historyNote">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/abstract -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/abstract"/>
+    
+
+
+    <!-- http://schema.org/citation -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/citation"/>
+    
+
+
+    <!-- http://schema.org/identifier -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/identifier"/>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/name"/>
+    
+
+
+    <!-- http://schema.org/pageEnd -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/pageEnd">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Article"/>
+                    <rdf:Description rdf:about="http://schema.org/Chapter"/>
+                    <rdf:Description rdf:about="http://schema.org/Legislation"/>
+                    <rdf:Description rdf:about="http://schema.org/PublicationIssue"/>
+                    <rdf:Description rdf:about="http://schema.org/PublicationVolume"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//Decision"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/pageStart -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/pageStart">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Article"/>
+                    <rdf:Description rdf:about="http://schema.org/Chapter"/>
+                    <rdf:Description rdf:about="http://schema.org/Legislation"/>
+                    <rdf:Description rdf:about="http://schema.org/PublicationIssue"/>
+                    <rdf:Description rdf:about="http://schema.org/PublicationVolume"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//Decision"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/pagination -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/pagination"/>
+    
+
+
+    <!-- http://schema.org/position -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/position"/>
+    
+
+
+    <!-- http://schema.org/volumeNumber -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/volumeNumber">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/position"/>
+        <rdfs:domain rdf:resource="http://schema.org/PublicationVolume"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Integer"/>
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//caseReporterAbbr -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//caseReporterAbbr">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//CaseReporter"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-19T01:48:41Z</dc:date>
+        <rdfs:comment xml:lang="en">The abbreviation used in a citation to a case reporter. Used extensively in legal citations.</rdfs:comment>
+        <rdfs:label xml:lang="en">caseReporterAbbr</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//citesTo -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//citesTo">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/citation"/>
+        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:03:16Z</dc:date>
+        <rdfs:comment xml:lang="en">A more specific type of citation designed to clearly indicate that the work cited is being used to support or oppose a particular proposition in the citing work.</rdfs:comment>
+        <rdfs:label xml:lang="en">citesTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//dateArgued -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//dateArgued">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//Decision"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Date"/>
+                    <rdf:Description rdf:about="http://schema.org/DateTime"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T03:18:28Z</dc:date>
+        <rdfs:comment xml:lang="en">Date on which a case was argued before a tribunal.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//dateDecided -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//dateDecided">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//Decision"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Date"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T03:18:23Z</dc:date>
+        <rdfs:comment xml:lang="en">The date on which a decision is issued.</rdfs:comment>
+        <rdfs:label xml:lang="en">dateDecided</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//decidingTribunal -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//decidingTribunal">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//Decision"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Organization"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T03:41:32Z</dc:date>
+        <rdfs:comment xml:lang="en">The tribunal (e.g., court, administrative agency, etc.) that made the Decision.</rdfs:comment>
+        <rdfs:label xml:lang="en">decidingTribunal</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//decisionCaseIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//decisionCaseIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/identifier"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-18T17:40:06Z</dc:date>
+        <rdfs:comment xml:lang="en">The case number, docket number, or other similar identifier, that identifies the specific case with which a Decision is associated.</rdfs:comment>
+        <rdfs:label xml:lang="en">decisionCaseIdentifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//decisionIdentifier -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//decisionIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://schema.org/identifier"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T17:38:51Z</dc:date>
+        <rdfs:label xml:lang="en">decisionIdentifier</rdfs:label>
+        <skos:example xml:lang="en">European Case Law Identifier,  Caselaw Access Project (CAP) ID, courtlistener ID, Supreme Court Database (SCDB) ID, etc.</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//decisionStart -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//decisionStart">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/PublicationVolume"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//Decision"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Integer"/>
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T02:45:22Z</dc:date>
+        <rdfs:comment xml:lang="en">The document subdivision that represents the beginning of a decision.</rdfs:comment>
+        <rdfs:label xml:lang="en">decisionStart</rdfs:label>
+        <skos:editorialNote xml:lang="en">Depending on the citation rules in other jurisdictions, a decisionEnd property may be desirable.</skos:editorialNote>
+        <skos:example xml:lang="en">Taylor v. United States, 579 U.S. 301, 309 (2016), where &quot;301&quot; is the decisionStart.</skos:example>
+        <skos:scopeNote xml:lang="en">This property includes document subdivisions other than pages and is, therefore, broader than schema:pageStart. This property is necessary because most cases that appear in reporters begin on a page other than the first page. One case reporter volume contains dozens of cases. The beginning of the &quot;work&quot; (i.e., the case reporter) would be page one, but the beginning of every decision, except the first decision that appears in the case reporter, would necessarily be a page other than the first page.</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//hasDecisionMaker -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//hasDecisionMaker">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//Decision"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Organization"/>
+                    <rdf:Description rdf:about="http://schema.org/Person"/>
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T03:51:12Z</dc:date>
+        <rdfs:comment xml:lang="en">An individual member of a decidingTribunal that is involved with making a particular Decision (e.g., a member of a panel of judges assigned to hear and decide a case).</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDecisionMaker</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//hasLegalOpinion -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//hasLegalOpinion">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Message"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//Decision"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//LegalOpinion"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T17:46:28Z</dc:date>
+        <rdfs:comment xml:lang="en">Indicates that a particular decision has a legal opinion with which the decision is associated.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasLegalOpinion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//isJoinedBy -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//isJoinedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//Decision"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//LegalOpinion"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Person"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-18T02:56:41Z</dc:date>
+        <rdfs:comment xml:lang="en">Describes a decisionMaker who is not the author of a Decision or LegalOpinion, but who signs on to support the Decision or LegalOpinion.</rdfs:comment>
+        <rdfs:label xml:lang="en">isJoinedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//isReportedIn -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//isReportedIn">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//Decision"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/PublicationVolume"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                    <rdf:Description rdf:about="https://maxwelldanderson.github.io/decext//CaseReporter"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:46:11Z</dc:date>
+        <rdfs:comment xml:lang="en">Indicates that a particular legal opinion is reported in a particular volume of a case reporter series.</rdfs:comment>
+        <rdfs:label xml:lang="en">isReportedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//legalOpinionType -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//legalOpinionType">
+        <rdfs:domain rdf:resource="https://maxwelldanderson.github.io/decext//LegalOpinion"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T23:43:12Z</dc:date>
+        <rdfs:comment xml:lang="en">A statement describing the type of LegalOpinion (e.g., majority; per curiam; concurring; dissenting; concurring in part and dissenting in part; concurring in the judgment; etc.).</rdfs:comment>
+        <rdfs:label xml:lang="en">legalOpinionType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//pincite -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//pincite">
+        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Integer"/>
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:15:10Z</dc:date>
+        <rdfs:comment xml:lang="en">A single, discrete subdivision of a document that to which citation is made (e.g., page 4; paragraph 7)</rdfs:comment>
+        <rdfs:label xml:lang="en">pincite</rdfs:label>
+        <skos:example xml:lang="en">Taylor v. United States, 579 U.S. 301, 309 (2016), where &quot;309&quot; is the pincite.</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//pinciteRangeEnd -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//pinciteRangeEnd">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:15:29Z</dc:date>
+        <rdfs:comment xml:lang="en">The last document subdivision of a cited range of identical document subdivisions.</rdfs:comment>
+        <rdfs:label xml:lang="en">pinciteRangeEnd</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">pinciteRangeStart</rdfs:seeAlso>
+        <skos:editorialNote xml:lang="en">This is distinct from schema:pageEnd, which refers to the &quot;page on which &lt;em&gt;the work&lt;/em&gt; ends.&quot; By contrast, this property would refer to the page on which the &lt;em&gt;cited material&lt;/em&gt; ends.&lt;br&gt;&lt;br&gt;
+
+The property name intentionally does not use the word &quot;page,&quot; because the property is intended to be broad enough to encompass not only pages, but also other discreet, citable document subdivisions, such as paragraphs, lines, sections, subsections, etc. Consequently, this property is also intended to be broader than schema:pagination.</skos:editorialNote>
+        <skos:example xml:lang="en">Taylor v. United States, 579 U.S. 301, 308-309 (2016), where &quot;309&quot; is the pinciteRangeEnd</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//pinciteRangeStart -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//pinciteRangeStart">
+        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/Integer"/>
+                    <rdf:Description rdf:about="http://schema.org/Role"/>
+                    <rdf:Description rdf:about="http://schema.org/Text"/>
+                    <rdf:Description rdf:about="http://schema.org/URL"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:15:25Z</dc:date>
+        <rdfs:comment xml:lang="en">The first document subdivision of a cited range of identical document subdivisions.</rdfs:comment>
+        <rdfs:label xml:lang="en">pinciteRangeStart</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">pinciteRangeEnd</rdfs:seeAlso>
+        <skos:editorialNote xml:lang="en">This is distinct from schema:pageStart, which refers to the &quot;page on which &lt;em&gt;the work&lt;/em&gt; starts.&quot; By contrast, this property would refer to the page on which the &lt;em&gt;cited material&lt;/em&gt; starts.&lt;br&gt;&lt;br&gt;
+
+The property name intentionally does not use the word &quot;page,&quot; because the property is intended to be broad enough to encompass not only pages, but also other discreet, citable document subdivisions, such as paragraphs, lines, sections, subsections, etc. Consequently, this property is also intended to be broader than schema:pagination.</skos:editorialNote>
+        <skos:example xml:lang="en">Taylor v. United States, 579 U.S. 301, 308-309 (2016), where &quot;308&quot; is the pinciteRangeStart</skos:example>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//priorDecision -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//priorDecision">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T23:16:22Z</dc:date>
+        <rdfs:comment xml:lang="en">Indicates a previous decision made in the current decision, whether by an inferior or a superior tribunal.</rdfs:comment>
+        <rdfs:label xml:lang="en">priorDecision</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//proceduralPosture -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//proceduralPosture">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-18T23:16:28Z</dc:date>
+        <rdfs:comment xml:lang="en">The current state or status of a particular Decision (e.g., motion to dismiss, on summary judgment, certiorari to a particular court, etc.)</rdfs:comment>
+        <rdfs:label xml:lang="en">proceduralPosture</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//starPage -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//starPage">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-22T00:45:49Z</dc:date>
+        <rdfs:comment xml:lang="en">Indicates a place in a text where the printed page of a distinct version of a work began. The distinct version can be a different edition, a different printing, etc. Star pages are used to retain the original pagination of a work where exact reproduction of the other version is infeasible.</rdfs:comment>
+        <rdfs:label xml:lang="en">starPage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//subsequentDecision -->
+
+    <owl:ObjectProperty rdf:about="https://maxwelldanderson.github.io/decext//subsequentDecision">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T23:16:28Z</dc:date>
+        <rdfs:comment xml:lang="en">Indicates a subsequent decision made in the current decision, whether by an inferior or a superior tribunal.</rdfs:comment>
+        <rdfs:label xml:lang="en">subsequentDecision</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/Article -->
+
+    <owl:Class rdf:about="http://schema.org/Article">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Chapter -->
+
+    <owl:Class rdf:about="http://schema.org/Chapter">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:isDefinedBy rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DataType -->
+
+    <owl:Class rdf:about="http://schema.org/DataType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Date -->
+
+    <owl:Class rdf:about="http://schema.org/Date">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DateTime -->
+
+    <owl:Class rdf:about="http://schema.org/DateTime">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Float -->
+
+    <owl:Class rdf:about="http://schema.org/Float">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+    <owl:Class rdf:about="http://schema.org/Intangible">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Integer -->
+
+    <owl:Class rdf:about="http://schema.org/Integer">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Legislation -->
+
+    <owl:Class rdf:about="http://schema.org/Legislation">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Message -->
+
+    <owl:Class rdf:about="http://schema.org/Message">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Number -->
+
+    <owl:Class rdf:about="http://schema.org/Number">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:Class rdf:about="http://schema.org/Organization">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:Class rdf:about="http://schema.org/Person">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PublicationIssue -->
+
+    <owl:Class rdf:about="http://schema.org/PublicationIssue">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PublicationVolume -->
+
+    <owl:Class rdf:about="http://schema.org/PublicationVolume">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:isDefinedBy rdf:resource="http://schema.org/PublicationVolume"/>
+        <rdfs:label xml:lang="en">schema:PublicationVolume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Role -->
+
+    <owl:Class rdf:about="http://schema.org/Role">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Text -->
+
+    <owl:Class rdf:about="http://schema.org/Text">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Thing -->
+
+    <owl:Class rdf:about="http://schema.org/Thing"/>
+    
+
+
+    <!-- http://schema.org/Time -->
+
+    <owl:Class rdf:about="http://schema.org/Time">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/URL -->
+
+    <owl:Class rdf:about="http://schema.org/URL">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//CaseReporter -->
+
+    <owl:Class rdf:about="https://maxwelldanderson.github.io/decext//CaseReporter">
+        <rdfs:subClassOf rdf:resource="http://schema.org/PublicationVolume"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T01:33:55Z</dc:date>
+        <rdfs:comment xml:lang="en">A multi-volume series (print or digital) in which legal opinions are published (e.g., U.S., F.3d, Mich.,etc.).</rdfs:comment>
+        <rdfs:label xml:lang="en">CaseReporter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//Decision -->
+
+    <owl:Class rdf:about="https://maxwelldanderson.github.io/decext//Decision">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T03:03:56Z</dc:date>
+        <rdfs:comment xml:lang="en">A determination or conclusion, usually carrying legal force, at which one arrives after substantive consideration or deliberation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Decision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://maxwelldanderson.github.io/decext//LegalOpinion -->
+
+    <owl:Class rdf:about="https://maxwelldanderson.github.io/decext//LegalOpinion">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-17T17:34:27Z</dc:date>
+        <rdfs:comment xml:lang="en">An expression that contains a written explanation of a decision, and applies a law or legal doctrine to a specific set of facts. A decision can have multiple opinions (e.g., majority opinion, concurring opinion, and dissenting opinion). Additionally, a legal opinion can be expressed in a Message (e.g., a memorandum or a letter).</rdfs:comment>
+        <rdfs:label xml:lang="en">LegalOpinion</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">Decision</rdfs:seeAlso>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
