@@ -1,2 +1,2 @@
-# decext
-DECision EXTension for Schema.org (proposal)
+# DECEXT -- the (proposed) DECision EXTension for Schema.org
+
