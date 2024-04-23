@@ -1,0 +1,635 @@
+{
+  "type": [
+    "http://schema.org/Decision"
+  ],
+  "properties": {
+    "decidingTribunal": [
+      "Supreme Court of the United States"
+    ],
+    "name": [
+      "BABCOCK v. KIJAKAZI, ACTING COMMISSIONER OF SOCIAL SECURITY"
+    ],
+    "proceduralPosture": [
+      "CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE SIXTH CIRCUIT"
+    ],
+    "decisionCaseIdentifier": [
+      "20\u2013480."
+    ],
+    "dateArgued": [
+      "2021-10-13"
+    ],
+    "dateDecided": [
+      "2022-01-13"
+    ],
+    "starPage": [
+      "*78"
+    ],
+    "hasDecisionMaker": [
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Barrett"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Roberts"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Thomas"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Breyer"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Alito"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Sotomayor"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Kagan"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Kavanaugh"
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/Person"
+        ],
+        "properties": {
+          "name": [
+            "Gorsuch"
+          ]
+        }
+      }
+    ],
+    "hasLegalOpinion": [
+      {
+        "type": [
+          "http://schema.org/LegalOpinion"
+        ],
+        "properties": {
+          "starPage": [
+            "*79",
+            "*80",
+            "*81",
+            "*82",
+            "*83",
+            "*84",
+            "*85"
+          ],
+          "author": [
+            "Justice Barrett"
+          ],
+          "citesTo": [
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Babcock v. Commissioner of Social Security"
+                ],
+                "isReportedIn": [
+                  {
+                    "properties": {
+                      "volumeNumber": [
+                        "959"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "210"
+                      ],
+                      "dateDecided": [
+                        "2020"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Linza v. Saul"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "990"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "243"
+                      ],
+                      "decidingTribunal": [
+                        "CA2"
+                      ],
+                      "dateDecided": [
+                        "2021"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Newton v. Commissioner Social Security"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "983"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "643"
+                      ],
+                      "decidingTribunal": [
+                        "CA3"
+                      ],
+                      "dateDecided": [
+                        "2020"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Larson v. Saul"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "967"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "914"
+                      ],
+                      "decidingTribunal": [
+                        "CA9"
+                      ],
+                      "dateDecided": [
+                        "2020"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Kientz v. Commissioner, SSA"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "954"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "1277"
+                      ],
+                      "decidingTribunal": [
+                        "CA10"
+                      ],
+                      "dateDecided": [
+                        "2020"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Martin v. SSA, Comm\u2019r"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "903"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "1154"
+                      ],
+                      "decidingTribunal": [
+                        "CA11"
+                      ],
+                      "dateDecided": [
+                        "2018"
+                      ]
+                    }
+                  }
+                ],
+                "legalOpinionType": [
+                  "per curiam"
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Petersen v. Astrue"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "633"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "633"
+                      ],
+                      "decidingTribunal": [
+                        "CA8"
+                      ],
+                      "dateDecided": [
+                        "2011"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "CaseReporter"
+              ],
+              "properties": {
+                "volumeNumber": [
+                  "592"
+                ],
+                "caseReporterAbbr": [
+                  "U.S."
+                ],
+                "decisionStart": [
+                  "\u2015"
+                ],
+                "dateDecided": [
+                  "2021"
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Adarand Constructors, Inc. v. Mineta"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "534"
+                      ],
+                      "caseReporterAbbr": [
+                        "U.S."
+                      ],
+                      "decisionStart": [
+                        "103"
+                      ],
+                      "pincite": [
+                        "110"
+                      ],
+                      "dateDecided": [
+                        "2001"
+                      ],
+                      "legalOpinionType": [
+                        "per curiam"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/Book"
+              ],
+              "properties": {
+                "name": [
+                  "American Heritage Dictionary"
+                ],
+                "pincite": [
+                  "106"
+                ],
+                "bookEdition": [
+                  "3d ed."
+                ],
+                "datePublished": [
+                  "1992"
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/PublicationVolume"
+              ],
+              "properties": {
+                "volumeNumber": [
+                  "1"
+                ],
+                "name": [
+                  "Oxford English Dictionary"
+                ],
+                "pincite": [
+                  "674"
+                ],
+                "version": [
+                  "2d ed."
+                ],
+                "datePublished": [
+                  "1989"
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "FCC v. AT&T Inc."
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "562"
+                      ],
+                      "caseReporterAbbr": [
+                        "U.S."
+                      ],
+                      "decisionStart": [
+                        "397"
+                      ],
+                      "pincite": [
+                        "407"
+                      ],
+                      "dateDecided": [
+                        "2011"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Astrue v. Ratliff"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "560"
+                      ],
+                      "caseReporterAbbr": [
+                        "U.S."
+                      ],
+                      "decisionStart": [
+                        "586"
+                      ],
+                      "pincite": [
+                        "595"
+                      ],
+                      "dateDecided": [
+                        "2010"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": [
+          "http://schema.org/LegalOpinion"
+        ],
+        "properties": {
+          "author": [
+            "Gorsuch"
+          ],
+          "legalOpinionType": [
+            "dissenting"
+          ],
+          "citesTo": [
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Petersen v. Astrue"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "633"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "633"
+                      ],
+                      "pinciteRangeStart": [
+                        "637"
+                      ],
+                      "pinciteRangeEnd": [
+                        "638"
+                      ],
+                      "dateDecided": [
+                        "2011"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": [
+                "http://schema.org/LegalOpinion"
+              ],
+              "properties": {
+                "name": [
+                  "Babcock v. Commissioner of Social Security"
+                ],
+                "isReportedIn": [
+                  {
+                    "type": [
+                      "http://schema.org/CaseReporter"
+                    ],
+                    "properties": {
+                      "volumeNumber": [
+                        "959"
+                      ],
+                      "caseReporterAbbr": [
+                        "F.3d"
+                      ],
+                      "decisionStart": [
+                        "210"
+                      ],
+                      "pincite": [
+                        "212"
+                      ],
+                      "decidingTribunal": [
+                        "CA6"
+                      ],
+                      "dateDecided": [
+                        "2020"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "starPage": [
+            "*86"
+          ]
+        }
+      }
+    ]
+  }
+}
